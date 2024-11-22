@@ -1,10 +1,12 @@
 /* Estilos básicos */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradiente de azul a cyan */
     margin: 0;
     padding: 0;
+    color: white;  /* Asegura que el texto se vea bien con el fondo */
 }
+
 
 /* Estilos para el encabezado */
 header {
