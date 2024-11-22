@@ -53,3 +53,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Estilo general para los enlaces */
+a {
+    color: #3498db; /* Color azul para los enlaces */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave en color y tamaño */
+}
+
+/* Efecto de hover para los enlaces */
+a:hover {
+    color: #2ecc71; /* Cambia el color del enlace al pasar el ratón */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
+}
